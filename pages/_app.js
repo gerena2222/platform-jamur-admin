@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head';
 import axios from 'axios';
-axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = false;
 
 function MyApp({ Component, pageProps }) {
   return (
