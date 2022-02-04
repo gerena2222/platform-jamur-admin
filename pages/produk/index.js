@@ -96,7 +96,7 @@ const Produk = () => {
                   <td>{index + 1}</td>
                   <td>{produk.namaProduk}</td>
                   <td>{produk.stokProduk}</td>
-                  <td><img src={produk.gambarProduk} alt=''/></td>
+                  <td><img src={produk.gambarProduk} alt=''/ width="200px" height="auto"></td>
                   <td>{produk.harga}</td>
                   <td>{produk.satuan}</td>
                   <td>
